@@ -10,7 +10,9 @@
 		"sourceMap": true,
 		"strict": true,
 		"paths": {
+			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
+			"$types": ["src/types"],
 			"$types/*": ["types/*"]
 		}
 	}
